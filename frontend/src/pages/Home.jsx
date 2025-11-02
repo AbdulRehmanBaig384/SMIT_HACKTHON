@@ -114,20 +114,17 @@ const Home = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
-          >
+            className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               to="/register"
-              className="btn-primary text-lg px-8 py-4 flex items-center space-x-2 group"
-            >
+              className="btn-primary text-lg px-8 py-4 flex items-center space-x-2 group">
               <span>{isUrdu ? 'Start Free' : 'Start Free'}</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             
             <Link
               to="/login"
-              className="btn-secondary text-lg px-8 py-4"
-            >
+              className="btn-secondary text-lg px-8 py-4">
               {isUrdu ? 'Already have account?' : 'Already have account?'}
             </Link>
           </motion.div>
