@@ -137,8 +137,7 @@ const Home = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               {isUrdu ? 'Powerful Features' : 'Powerful Features'}
             </h2>
