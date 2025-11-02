@@ -140,13 +140,11 @@ const Login = () => {
                   value={formData.password}
                   onChange={handleChange}
                   className="input-primary pl-10 pr-10"
-                  placeholder={isUrdu ? 'Password enter karein' : 'Enter your password'}
-                />
+                  placeholder={isUrdu ? 'Password enter karein' : 'Enter your password'} />
                 <button
                   type="button"
                   className="absolute inset-y-0 right-0 pr-3 flex items-center"
-                  onClick={() => setShowPassword(!showPassword)}
-                >
+                  onClick={() => setShowPassword(!showPassword)}>
                   {showPassword ? (
                     <EyeOff className="h-5 w-5 text-gray-400 hover:text-gray-600" />
                   ) : (
@@ -217,13 +215,11 @@ const Login = () => {
           </div>
         </motion.div>
 
-        {/* Demo Credentials */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
-          className="card p-4 bg-blue-50 border border-blue-200"
-        >
+          className="card p-4 bg-blue-50 border border-blue-200">
           <h3 className="text-sm font-medium text-blue-800 mb-2">
             {isUrdu ? 'Demo Credentials:' : 'Demo Credentials:'}
           </h3>
