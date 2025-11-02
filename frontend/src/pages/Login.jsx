@@ -115,13 +115,7 @@ const Login = () => {
                   <Mail className="h-5 w-5 text-gray-400" />
                 </div>
                 <input
-                  id="email"
-             name="email"
-                  type="email"
-                  autoComplete="email"
-                  required
-                  value={formData.email}
-                  onChange={handleChange}
+                  id="email" name="email" type="email" autoComplete="email" required value={formData.email} onChange={handleChange}
                   className="input-primary pl-10"
                   placeholder={isUrdu ? 'apna@email.com' : 'your@email.com'}
                 />
