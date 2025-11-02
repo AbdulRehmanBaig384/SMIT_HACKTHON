@@ -12,7 +12,6 @@ const translations = {
     login: 'Login',
     register: 'Register',
     logout: 'Logout',
-
     welcome: 'Welcome',
     loading: 'Loading...',
     error: 'Error',
@@ -112,7 +111,6 @@ const translations = {
     ecg: 'ECG',
     other: 'Other'
   },
-  
   ur: {
     home: 'Ghar',
     dashboard: 'Dashboard',
