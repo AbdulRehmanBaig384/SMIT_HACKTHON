@@ -158,8 +158,7 @@ const Home = () => {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1 }}
-                  className="card card-hover p-6 text-center"
-                >
+                  className="card card-hover p-6 text-center">
                   <div className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
@@ -258,8 +257,7 @@ const Home = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-          >
+            whileInView={{ opacity: 1, y: 0 }}>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               {isUrdu ? 'Ready to start?' : 'Ready to get started?'}
             </h2>
