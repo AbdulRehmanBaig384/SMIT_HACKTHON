@@ -160,13 +160,7 @@ const Register = () => {
               <label htmlFor="language" className="block text-sm font-medium text-gray-700 mb-2">
                 {t('language')}
               </label>
-              <select
-                id="language"
-                name="language"
-                value={formData.language}
-                onChange={handleChange}
-                className="input-primary"
-              >
+              <select id="language" name="language" value={formData.language} onChange={handleChange} className="input-primary" >
                 <option value="en">English</option>
                 <option value="ur">Roman Urdu</option>
               </select>
