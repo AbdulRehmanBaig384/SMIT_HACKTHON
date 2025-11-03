@@ -136,11 +136,8 @@ const Register = () => {
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <User className="h-5 w-5 text-gray-400" />
                 </div>
-                <input id="name" name="name" type="text" autoComplete="name" required value={formData.name}
-                  onChange={handleChange}
-                  className="input-primary pl-10"
-                  placeholder={isUrdu ? 'Apna naam enter karein' : 'Enter your full name'}
-                />
+                <input id="name" name="name" type="text" autoComplete="name" required value={formData.name} onChange={handleChange}
+                  className="input-primary pl-10" placeholder={isUrdu ? 'Apna naam enter karein' : 'Enter your full name'} />
               </div>
             </div>
 
