@@ -80,8 +80,7 @@ const Register = () => {
             repeat: Infinity, 
             ease: "easeInOut" 
           }}
-          className="absolute top-20 left-10 w-32 h-32 bg-primary-200/30 rounded-full blur-xl"
-        />
+          className="absolute top-20 left-10 w-32 h-32 bg-primary-200/30 rounded-full blur-xl"/>
         <motion.div
           animate={{ 
             y: [0, 20, 0],
