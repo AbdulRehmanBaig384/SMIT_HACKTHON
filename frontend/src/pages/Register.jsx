@@ -100,13 +100,11 @@ const Register = () => {
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center"
-        >
+          className="text-center" >
           <div className="flex justify-center mb-6">
             <motion.div
               whileHover={{ scale: 1.1 }}
-              className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center"
-            >
+              className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center">
               <Heart className="w-8 h-8 text-white" />
             </motion.div>
           </div>
