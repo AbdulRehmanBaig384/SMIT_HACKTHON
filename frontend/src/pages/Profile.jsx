@@ -180,14 +180,10 @@ const Profile = () => {
                       <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                         <User className="h-5 w-5 text-gray-400" />
                       </div>
-                      <input type="text" id="name"
-                        value={profileData.name}
-                        onChange={(e) => setProfileData({ ...profileData, name: e.target.value })}
-                        className="input-primary pl-10"
-                        required />
+                      <input type="text" id="name" value={profileData.name} onChange={(e) => setProfileData({ ...profileData, name: e.target.value })}
+                        className="input-primary pl-10" required />
                     </div>
                   </div>
-
                   {/* Email */}
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
@@ -197,12 +193,7 @@ const Profile = () => {
                       <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                         <Mail className="h-5 w-5 text-gray-400" />
                       </div>
-                      <input
-                        type="email"
-                        id="email"
-                        value={profileData.email}
-                        disabled
-                        className="input-primary pl-10 bg-gray-50"
+                      <input type="email" id="email" value={profileData.email} disabled className="input-primary pl-10 bg-gray-50"
                       />
                     </div>
                     <p className="text-sm text-gray-500 mt-1">
