@@ -44,13 +44,11 @@ const Profile = () => {
     
     if (passwordData.newPassword !== passwordData.confirmPassword) {
       alert(isUrdu ? 'New passwords match nahi kar rahe' : 'New passwords do not match')
-      return
-    }
-
+      return}
+    
     if (passwordData.newPassword.length < 6) {
       alert(isUrdu ? 'New password kam se kam 6 characters ka hona chahiye' : 'New password must be at least 6 characters')
-      return
-    }
+      return}
 
     setLoading(true)
     try {
