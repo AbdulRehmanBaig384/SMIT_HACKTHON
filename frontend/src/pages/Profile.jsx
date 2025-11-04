@@ -67,12 +67,10 @@ const Profile = () => {
       setLoading(false)
     }
   }
-
   const tabs = [
     { id: 'profile', label: isUrdu ? 'Profile Settings' : 'Profile Settings', icon: User },
     { id: 'password', label: isUrdu ? 'Change Password' : 'Change Password', icon: Lock }
   ]
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
