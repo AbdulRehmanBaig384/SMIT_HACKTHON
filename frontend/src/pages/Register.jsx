@@ -41,7 +41,6 @@ const Register = () => {
       alert(isUrdu ? 'Password kam se kam 6 characters ka hona chahiye' : 'Password must be at least 6 characters')
       return
     }
-
     setIsLoading(true)
 
     try {
