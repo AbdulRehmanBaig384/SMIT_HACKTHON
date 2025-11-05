@@ -90,8 +90,7 @@ const Register = () => {
             repeat: Infinity, 
             ease: "easeInOut" 
           }}
-          className="absolute bottom-20 right-10 w-40 h-40 bg-secondary-200/30 rounded-full blur-xl"
-        />
+          className="absolute bottom-20 right-10 w-40 h-40 bg-secondary-200/30 rounded-full blur-xl" />
       </div>
 
       <div className="max-w-md w-full space-y-8 relative z-10">
