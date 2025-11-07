@@ -237,8 +237,7 @@ const Register = () => {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               type="submit"
-              className="w-full btn-primary flex items-center justify-center space-x-2 group"
-            >
+              className="w-full btn-primary flex items-center justify-center space-x-2 group">
               <span>{isUrdu ? 'Account Banayein' : 'Create Account'}</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.button>
@@ -264,8 +263,7 @@ const Register = () => {
               {t('alreadyHaveAccount')}{' '}
               <Link
                 to="/login"
-                className="font-medium text-primary-600 hover:text-primary-500 transition-colors"
-              >
+                className="font-medium text-primary-600 hover:text-primary-500 transition-colors" >
                 {t('signIn')}
               </Link>
             </p>
@@ -277,8 +275,7 @@ const Register = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
-          className="card p-4 bg-green-50 border border-green-200"
-        >
+          className="card p-4 bg-green-50 border border-green-200"  >
           <h3 className="text-sm font-medium text-green-800 mb-2">
             {isUrdu ? 'Free Account Benefits:' : 'Free Account Benefits:'}
           </h3>
@@ -293,5 +290,4 @@ const Register = () => {
     </div>
   )
 }
-
 export default Register
