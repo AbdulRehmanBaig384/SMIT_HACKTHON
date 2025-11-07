@@ -198,10 +198,8 @@ const Register = () => {
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <Lock className="h-5 w-5 text-gray-400" />
                 </div>
-                <input id="confirmPassword" name="confirmPassword" type={showConfirmPassword ? 'text' : 'password'}
-                  autoComplete="new-password"
-                  required
-                  value={formData.confirmPassword}
+                <input id="confirmPassword" name="confirmPassword" type={showConfirmPassword ? 'text' : 'password'} autoComplete="new-password"
+                  required value={formData.confirmPassword}
                   onChange={handleChange}
                   className="input-primary pl-10 pr-10"
                   placeholder={isUrdu ? 'Password confirm karein' : 'Confirm your password'} />
