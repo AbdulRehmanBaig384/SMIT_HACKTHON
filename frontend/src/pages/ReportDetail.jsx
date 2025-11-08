@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { 
-  FileText, 
-  Calendar, 
+import { FileText, Calendar, 
   Download, 
   Brain,
   AlertCircle,
