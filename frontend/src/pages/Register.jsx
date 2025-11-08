@@ -215,8 +215,7 @@ const Register = () => {
 
             {/* Terms and Conditions */}
             <div className="flex items-center">
-              <input
-                id="terms"
+              <input id="terms"
                 name="terms"
                 type="checkbox"
                 required
