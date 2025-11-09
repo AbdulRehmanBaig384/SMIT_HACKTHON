@@ -86,8 +86,7 @@ const ReportDetail = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="card p-6"
-            >
+              className="card p-6">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">
                 {isUrdu ? 'Report Information' : 'Report Information'}
               </h2>
@@ -123,8 +122,7 @@ const ReportDetail = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="card p-6"
-              >
+                className="card p-6">
                 <div className="flex items-center space-x-3 mb-4">
                   <Brain className="w-6 h-6 text-purple-600" />
                   <h2 className="text-xl font-semibold text-gray-900">
@@ -165,8 +163,7 @@ const ReportDetail = () => {
                             <span className={`px-2 py-1 rounded-full text-xs ${
                               value.severity === 'critical' ? 'bg-red-100 text-red-800' :
                               value.severity === 'high' ? 'bg-orange-100 text-orange-800' :
-                              'bg-yellow-100 text-yellow-800'
-                            }`}>
+                              'bg-yellow-100 text-yellow-800'}`}>
                               {value.severity}
                             </span>
                           </div>
@@ -251,8 +248,7 @@ const ReportDetail = () => {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 }}
-              className="card p-6"
-            >
+              className="card p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">
                 {isUrdu ? 'Analysis Status' : 'Analysis Status'}
               </h3>
@@ -281,8 +277,7 @@ const ReportDetail = () => {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4 }}
-              className="card p-6 bg-yellow-50 border border-yellow-200"
-            >
+              className="card p-6 bg-yellow-50 border border-yellow-200">
               <div className="flex items-start space-x-3">
                 <AlertCircle className="w-5 h-5 text-yellow-600 mt-0.5" />
                 <div>
