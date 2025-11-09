@@ -55,9 +55,7 @@ const ReportDetail = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="mb-8">
-          <Link
-            to="/reports"
-            className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-4">
+          <Link to="/reports" className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-4">
             <ArrowLeft className="w-4 h-4 mr-2" />
             {isUrdu ? 'Reports pe wapas' : 'Back to Reports'}
           </Link>
@@ -73,8 +71,7 @@ const ReportDetail = () => {
             </div>
             <button
               onClick={() => window.open(report.fileUrl, '_blank')}
-              className="btn-primary flex items-center space-x-2"
-            >
+              className="btn-primary flex items-center space-x-2">
               <Download className="w-5 h-5" />
               <span>{isUrdu ? 'Download' : 'Download'}</span>
             </button>
