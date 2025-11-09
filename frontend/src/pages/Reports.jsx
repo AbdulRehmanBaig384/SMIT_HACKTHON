@@ -1,13 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { FileText, Upload, Calendar, Filter, Search, Eye, Download, Trash2,
-  Plus,
-  AlertCircle,
-  CheckCircle,
-  Clock,
-  Brain
-} from 'lucide-react'
+import { FileText, Upload, Calendar, Filter, Search, Eye, Download, Trash2, Plus, AlertCircle, CheckCircle, Clock, Brain } from 'lucide-react'
 import { useLanguage } from '../context/LanguageContext'
 import LoadingSpinner from '../components/LoadingSpinner'
 import axios from 'axios'
