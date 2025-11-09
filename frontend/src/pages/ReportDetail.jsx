@@ -54,12 +54,10 @@ const ReportDetail = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-8"
-        >
+          className="mb-8">
           <Link
             to="/reports"
-            className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-4"
-          >
+            className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-4">
             <ArrowLeft className="w-4 h-4 mr-2" />
             {isUrdu ? 'Reports pe wapas' : 'Back to Reports'}
           </Link>
