@@ -175,9 +175,7 @@ const Register = () => {
                 </div>
                 <input id="password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required value={formData.password}
                   onChange={handleChange} className="input-primary pl-10 pr-10"  placeholder={isUrdu ? 'Password enter karein' : 'Enter your password'} />
-                <button
-                  type="button"
-                  className="absolute inset-y-0 right-0 pr-3 flex items-center"
+                <button type="button" className="absolute inset-y-0 right-0 pr-3 flex items-center"
                   onClick={() => setShowPassword(!showPassword)}>
                   {showPassword ? (
                     <EyeOff className="h-5 w-5 text-gray-400 hover:text-gray-600" />
