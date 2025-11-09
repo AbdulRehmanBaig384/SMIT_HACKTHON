@@ -198,10 +198,7 @@ const Register = () => {
                 <input id="confirmPassword" name="confirmPassword" type={showConfirmPassword ? 'text' : 'password'} autoComplete="new-password"  required value={formData.confirmPassword}
                   onChange={handleChange} className="input-primary pl-10 pr-10"
                   placeholder={isUrdu ? 'Password confirm karein' : 'Confirm your password'} />
-                <button
-                  type="button"
-                  className="absolute inset-y-0 right-0 pr-3 flex items-center"
-                  onClick={() => setShowConfirmPassword(!showConfirmPassword)} >
+                <button type="button" className="absolute inset-y-0 right-0 pr-3 flex items-center" onClick={() => setShowConfirmPassword(!showConfirmPassword)} >
                   {showConfirmPassword ? (
                     <EyeOff className="h-5 w-5 text-gray-400 hover:text-gray-600" />
                   ) : (
