@@ -62,7 +62,6 @@ const Reports = () => {
         return 0
     }
   })
-
   const reportTypes = [
     { value: 'all', label: isUrdu ? 'Sab Reports' : 'All Reports' },
     { value: 'blood_test', label: isUrdu ? 'Blood Test' : 'Blood Test' },
