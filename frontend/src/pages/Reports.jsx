@@ -98,8 +98,7 @@ const Reports = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-8"
-        >
+          className="mb-8" >
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <div>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -114,8 +113,7 @@ const Reports = () => {
             </div>
             <Link
               to="/reports/upload"
-              className="btn-primary mt-4 md:mt-0 flex items-center space-x-2"
-            >
+              className="btn-primary mt-4 md:mt-0 flex items-center space-x-2" >
               <Plus className="w-5 h-5" />
               <span>{isUrdu ? 'New Report Upload' : 'Upload New Report'}</span>
             </Link>
