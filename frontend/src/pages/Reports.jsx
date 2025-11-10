@@ -178,16 +178,14 @@ const Reports = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-          >
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" >
             {sortedReports.map((report, index) => (
               <motion.div
                 key={report._id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="card card-hover p-6"
-              >
+                className="card card-hover p-6" >
                 {/* Report Header */}
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center space-x-3">
