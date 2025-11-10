@@ -80,7 +80,6 @@ const Reports = () => {
     }
     return <Clock className="w-5 h-5 text-orange-500" />
   }
-
   const getStatusText = (report) => {
     if (report.isAnalyzed) {
       return isUrdu ? 'Analyzed' : 'Analyzed'
