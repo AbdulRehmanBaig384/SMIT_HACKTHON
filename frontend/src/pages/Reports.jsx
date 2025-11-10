@@ -125,8 +125,7 @@ const Reports = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="card p-6 mb-8"
-        >
+          className="card p-6 mb-8" >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Search */}
             <div className="relative">
@@ -138,8 +137,7 @@ const Reports = () => {
                 placeholder={isUrdu ? 'Reports search karein...' : 'Search reports...'}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="input-primary pl-10"
-              />
+                className="input-primary pl-10" />
             </div>
 
             {/* Filter by Type */}
