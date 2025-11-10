@@ -131,9 +131,7 @@ const Reports = () => {
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <Search className="h-5 w-5 text-gray-400" />
               </div>
-              <input
-                type="text"
-                placeholder={isUrdu ? 'Reports search karein...' : 'Search reports...'}
+              <input type="text" placeholder={isUrdu ? 'Reports search karein...' : 'Search reports...'}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="input-primary pl-10" />
@@ -147,8 +145,7 @@ const Reports = () => {
               <select
                 value={filterType}
                 onChange={(e) => setFilterType(e.target.value)}
-                className="input-primary pl-10"
-              >
+                className="input-primary pl-10">
                 {reportTypes.map(type => (
                   <option key={type.value} value={type.value}>
                     {type.label}
