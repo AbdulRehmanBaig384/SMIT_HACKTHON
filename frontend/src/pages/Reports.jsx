@@ -263,24 +263,21 @@ const Reports = () => {
                     <Link
                       to={`/reports/${report._id}`}
                       className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
-                      title={isUrdu ? 'View Report' : 'View Report'}
-                    >
+                      title={isUrdu ? 'View Report' : 'View Report'} >
                       <Eye className="w-4 h-4" />
                     </Link>
                     
                     <button
                       onClick={() => window.open(report.fileUrl, '_blank')}
                       className="p-2 text-green-600 hover:bg-green-50 rounded-lg transition-colors"
-                      title={isUrdu ? 'Download' : 'Download'}
-                    >
+                      title={isUrdu ? 'Download' : 'Download'} >
                       <Download className="w-4 h-4" />
                     </button>
                     
                     <button
                       onClick={() => handleDeleteReport(report._id)}
                       className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
-                      title={isUrdu ? 'Delete' : 'Delete'}
-                    >
+                      title={isUrdu ? 'Delete' : 'Delete'} >
                       <Trash2 className="w-4 h-4" />
                     </button>
                   </div>
@@ -300,8 +297,7 @@ const Reports = () => {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center py-16"
-          >
+            className="text-center py-16">
             <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
               <FileText className="w-12 h-12 text-gray-400" />
             </div>
@@ -316,8 +312,7 @@ const Reports = () => {
             </p>
             <Link
               to="/reports/upload"
-              className="btn-primary inline-flex items-center space-x-2"
-            >
+              className="btn-primary inline-flex items-center space-x-2" >
               <Upload className="w-5 h-5" />
               <span>{isUrdu ? 'Report Upload Karein' : 'Upload Report'}</span>
             </Link>
