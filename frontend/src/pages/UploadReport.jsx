@@ -2,11 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useDropzone } from 'react-dropzone'
-import { 
-  Upload, 
-  FileText, 
-  Calendar, 
-  AlertCircle,
+import { Upload, FileText, Calendar, AlertCircle,
   CheckCircle,
   X,
   Brain
