@@ -2,8 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useDropzone } from 'react-dropzone'
-import { Upload, FileText, Calendar, AlertCircle,CheckCircle,X, Brain
-} from 'lucide-react'
+import { Upload, FileText, Calendar, AlertCircle,CheckCircle,X, Brain} from 'lucide-react'
 import { useLanguage } from '../context/LanguageContext'
 import LoadingSpinner from '../components/LoadingSpinner'
 import axios from 'axios'
@@ -73,8 +72,7 @@ const UploadReport = () => {
       toast.error(error.response?.data?.message || (isUrdu ? 'Upload failed' : 'Upload failed'))
     } finally {
       setUploading(false)
-    }
-  }
+    } }
 
   const reportTypes = [
     { value: 'blood_test', label: isUrdu ? 'Blood Test' : 'Blood Test' },
