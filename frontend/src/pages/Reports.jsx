@@ -162,8 +162,7 @@ const Reports = () => {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="input-primary pl-10"
-              >
+                className="input-primary pl-10">
                 <option value="date">{isUrdu ? 'Date se sort' : 'Sort by Date'}</option>
                 <option value="title">{isUrdu ? 'Name se sort' : 'Sort by Name'}</option>
                 <option value="type">{isUrdu ? 'Type se sort' : 'Sort by Type'}</option>
