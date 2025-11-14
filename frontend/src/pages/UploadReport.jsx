@@ -141,8 +141,7 @@ const UploadReport = () => {
                         e.stopPropagation()
                         setFile(null)
                       }}
-                      className="text-red-600 hover:text-red-700 text-sm"
-                    >
+                      className="text-red-600 hover:text-red-700 text-sm">
                       {isUrdu ? 'Remove' : 'Remove'}
                     </button>
                   </div>
@@ -162,7 +161,6 @@ const UploadReport = () => {
                 )}
               </div>
             </div>
-
             {/* Report Title */}
             <div>
               <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-2">
