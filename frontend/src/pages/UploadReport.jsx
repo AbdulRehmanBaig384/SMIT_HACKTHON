@@ -111,8 +111,7 @@ const UploadReport = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="card p-8"
-        >
+          className="card p-8" >
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* File Upload */}
             <div>
@@ -127,8 +126,7 @@ const UploadReport = () => {
                     : file
                     ? 'border-green-500 bg-green-50'
                     : 'border-gray-300 hover:border-primary-400'
-                }`}
-              >
+                }`}>
                 <input {...getInputProps()} />
                 {file ? (
                   <div className="space-y-2">
