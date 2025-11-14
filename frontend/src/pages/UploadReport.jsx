@@ -166,9 +166,7 @@ const UploadReport = () => {
               <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-2">
                 {isUrdu ? 'Report Title' : 'Report Title'}
               </label>
-              <input
-                type="text"
-                id="title"
+              <input type="text" id="title"
                 name="title"
                 required
                 value={formData.title}
