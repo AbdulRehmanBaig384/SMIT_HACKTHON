@@ -166,13 +166,8 @@ const UploadReport = () => {
               <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-2">
                 {isUrdu ? 'Report Title' : 'Report Title'}
               </label>
-              <input type="text" id="title"
-                name="title"
-                required
-                value={formData.title}
-                onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-                className="input-primary"
-                placeholder={isUrdu ? 'Report ka naam enter karein' : 'Enter report title'}
+              <input type="text" id="title" name="title" required value={formData.title} onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+                className="input-primary" placeholder={isUrdu ? 'Report ka naam enter karein' : 'Enter report title'}
               />
             </div>
 
