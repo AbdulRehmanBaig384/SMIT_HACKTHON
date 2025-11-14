@@ -176,13 +176,8 @@ const UploadReport = () => {
               <label htmlFor="type" className="block text-sm font-medium text-gray-700 mb-2">
                 {isUrdu ? 'Report Type' : 'Report Type'}
               </label>
-              <select
-                id="type"
-                name="type"
-                value={formData.type}
-                onChange={(e) => setFormData({ ...formData, type: e.target.value })}
-                className="input-primary"
-              >
+              <select id="type" name="type" value={formData.type} onChange={(e) => setFormData({ ...formData, type: e.target.value })}
+                className="input-primary" >
                 {reportTypes.map(type => (
                   <option key={type.value} value={type.value}>
                     {type.label}
