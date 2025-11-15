@@ -191,9 +191,7 @@ const UploadReport = () => {
               <label htmlFor="reportDate" className="block text-sm font-medium text-gray-700 mb-2">
                 {isUrdu ? 'Report Date' : 'Report Date'}
               </label>
-              <input type="date" id="reportDate"
-                name="reportDate"
-                required
+              <input type="date" id="reportDate" name="reportDate" required
                 value={formData.reportDate}
                 onChange={(e) => setFormData({ ...formData, reportDate: e.target.value })}
                 className="input-primary"
