@@ -191,8 +191,7 @@ const UploadReport = () => {
               <label htmlFor="reportDate" className="block text-sm font-medium text-gray-700 mb-2">
                 {isUrdu ? 'Report Date' : 'Report Date'}
               </label>
-              <input
-                type="date"
+              <input type="date"
                 id="reportDate"
                 name="reportDate"
                 required
