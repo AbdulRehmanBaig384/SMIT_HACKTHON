@@ -234,15 +234,13 @@ const UploadReport = () => {
               <button
                 type="button"
                 onClick={() => navigate('/reports')}
-                className="btn-ghost flex-1"
-              >
+                className="btn-ghost flex-1">
                 {isUrdu ? 'Cancel' : 'Cancel'}
               </button>
               <button
                 type="submit"
                 disabled={!file}
-                className="btn-primary flex-1 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
-              >
+                className="btn-primary flex-1 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
                 <Upload className="w-5 h-5" />
                 <span>{isUrdu ? 'Upload & Analyze' : 'Upload & Analyze'}</span>
               </button>
