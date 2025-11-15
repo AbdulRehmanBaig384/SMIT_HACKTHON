@@ -1,12 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { 
-  Activity, 
-  Plus, 
-  Calendar, 
-  TrendingUp,
-  Heart,
-  Droplets,
+import { Activity, Plus, Calendar, TrendingUp, Heart, Droplets,
   Weight,
   Thermometer,
   Gauge
