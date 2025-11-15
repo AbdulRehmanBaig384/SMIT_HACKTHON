@@ -1,10 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Activity, Plus, Calendar, TrendingUp, Heart, Droplets,
-  Weight,
-  Thermometer,
-  Gauge
-} from 'lucide-react'
+import { Activity, Plus, Calendar, TrendingUp, Heart, Droplets, Weight, Thermometer, Gauge} from 'lucide-react'
 import { useLanguage } from '../context/LanguageContext'
 import LoadingSpinner from '../components/LoadingSpinner'
 import axios from 'axios'
