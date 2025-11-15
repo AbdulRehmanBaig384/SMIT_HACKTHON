@@ -192,10 +192,8 @@ const UploadReport = () => {
                 {isUrdu ? 'Report Date' : 'Report Date'}
               </label>
               <input type="date" id="reportDate" name="reportDate" required
-                value={formData.reportDate}
-                onChange={(e) => setFormData({ ...formData, reportDate: e.target.value })}
-                className="input-primary"
-              />
+                value={formData.reportDate} onChange={(e) => setFormData({ ...formData, reportDate: e.target.value })}
+                className="input-primary" />
             </div>
 
             {/* AI Analysis Info */}
